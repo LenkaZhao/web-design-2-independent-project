@@ -12,6 +12,10 @@ body {
   margin: 0;
 }
 
+body ul {
+  display: none;
+}
+
 header img {
   width: 3rem;
   order: -1;
@@ -88,6 +92,10 @@ nav a:hover {
   margin: 2rem 8rem;
 }
 
+.products {
+  text-align: center;
+}
+
 .products img {
   display: block;
   width: 100%;
@@ -123,7 +131,6 @@ nav a:hover {
   border-radius: 10px;
   color: #9f2a2a;
   padding: .5rem 2rem;
-  margin-left: 17rem;
 }
 
 .products a:hover {
