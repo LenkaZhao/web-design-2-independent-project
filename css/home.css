@@ -1,0 +1,150 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header img {
+  width: 3rem;
+  order: -1;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  background-color: #9F2A2A;
+}
+
+header h1 {
+  padding: 0;
+  color: #fff;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  margin: .5rem;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.125rem;
+}
+
+nav a:hover {
+  color: yellow;
+}
+
+.banner {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "banner";
+  font-size: 1.5rem;
+}
+
+.banner img {
+  grid-area: banner;
+  width: 100%;
+}
+
+.banner div {
+  grid-area: banner;
+  align-self: center;
+  justify-self: center;
+}
+
+.banner h2 {
+  color: #9F2A2A;
+}
+
+.about {
+  text-align: center;
+}
+
+.about h2 {
+  color: #9F2A2A;
+  font-size: 2.5rem;
+  margin-top: 5rem;
+}
+
+.about p {
+  font-size: 1rem;
+  margin: 2rem 8rem;
+}
+
+.products img {
+  display: block;
+  width: 100%;
+}
+
+.products h2 {
+  text-align: center;
+  color: #9F2A2A;
+  font-size: 2.5rem;
+  margin-top: 5rem;
+}
+
+.products ul {
+  list-style-type: none;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 0;
+}
+
+.products h3 {
+  text-align: center;
+  color: #9F2A2A;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.products a {
+  text-align: center;
+  text-decoration: none;
+  border: 3px solid #9F2A2A;
+  border-radius: 10px;
+  color: #9F2A2A;
+  padding: .5rem 2rem;
+  margin-left: 17rem;
+}
+
+.products a:hover {
+  color: black;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  font-size: 1rem;
+  align-items: center;
+  background-color: #9F2A2A;
+  margin-top: 3rem;
+}
+
+footer h4 {
+  color: #fff;
+}
+
+footer p {
+  color: #fff;
+  font-size: .7rem;
+}
