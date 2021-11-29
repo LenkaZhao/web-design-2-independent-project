@@ -17,7 +17,7 @@ body ul {
 }
 
 header img {
-  width: 3rem;
+  width: 2rem;
   order: -1;
 }
 
@@ -31,6 +31,7 @@ header {
 }
 
 header h1 {
+  font-size: 1.5rem;
   padding: 0;
   color: #fff;
 }
@@ -47,7 +48,7 @@ nav a {
   margin: .5rem;
   text-decoration: none;
   color: #fff;
-  font-size: 1.125rem;
+  font-size: .9rem;
 }
 
 nav a:hover {
@@ -59,7 +60,6 @@ nav a:hover {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "banner";
-  font-size: 1.5rem;
 }
 
 .banner img {
@@ -75,6 +75,7 @@ nav a:hover {
 
 .banner h2 {
   color: #9f2a2a;
+  font-size: .9rem;
 }
 
 .about {
@@ -83,13 +84,13 @@ nav a:hover {
 
 .about h2 {
   color: #9f2a2a;
-  font-size: 2.5rem;
-  margin-top: 5rem;
+  font-size: 1.5rem;
+  margin-top: 2rem;
 }
 
 .about p {
   font-size: 1rem;
-  margin: 2rem 20rem;
+  margin: 2rem 5rem;
 }
 
 .products {
@@ -154,4 +155,56 @@ footer h4 {
 footer p {
   color: #fff;
   font-size: .7rem;
+}
+
+@media only screen and (min-width: 38em) {
+  html {
+    background-color: pink;
+  }
+
+  .banner h2 {
+    font-size: 1.5rem;
+  }
+
+  .about h2 {
+    margin-top: 3rem;
+    font-size: 2rem;
+  }
+
+  .about p {
+    margin: 2rem 11rem;
+  }
+}
+
+@media only screen and (min-width: 63em) {
+  html {
+    background-color: blue;
+  }
+
+  header img {
+    width: 3rem;
+  }
+
+  .banner h2 {
+    font-size: 2.5rem;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  nav a {
+    font-size: 1.125rem;
+  }
+
+  .about h2 {
+    margin-top: 5rem;
+    font-size: 2.5rem;
+  }
+
+  .about p {
+    margin: 2rem 20rem;
+  }
+
+
 }
