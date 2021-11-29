@@ -51,10 +51,71 @@ nav a:hover {
   color: yellow;
 }
 
+.banner {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "banner";
+}
+
+.banner img {
+  grid-area: banner;
+  width: 100%;
+}
+
+.banner div {
+  grid-area: banner;
+  align-self: center;
+  justify-self: center;
+}
+
+.banner h2 {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.about {
+  text-align: center;
+}
+
+.about h2 {
+  color: #9f2a2a;
+  font-size: 1.5rem;
+  margin-top: 3rem;
+}
+
+.about p {
+  font-size: 1rem;
+  margin: 2rem 6rem;
+}
+
+footer {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  font-size: 1rem;
+  align-items: center;
+  background-color: #9f2a2a;
+  margin-top: 3rem;
+}
+
 @media only screen and (min-width: 38em) {
 
   nav a {
     font-size: 1rem;
+  }
+
+  .banner h2 {
+    font-size: 6rem;
+  }
+
+  .about h2 {
+    font-size: 3rem;
+  }
+
+  .about p {
+    margin: 2rem 10rem;
   }
 
 }
@@ -71,6 +132,18 @@ nav a:hover {
 
   nav a {
     font-size: 1.125rem;
+  }
+
+  .banner h2 {
+    font-size: 10rem;
+  }
+
+  .about h2 {
+    font-size: 3.5rem;
+  }
+
+  .about p {
+    margin: 2rem 25rem;
   }
 
 }
