@@ -97,36 +97,33 @@ nav a:hover {
   text-align: center;
 }
 
-.products img {
-  display: block;
-  width: 100%;
-}
-
-.products h2 {
-  text-align: center;
-  color: #9f2a2a;
-  font-size: 2.5rem;
-  margin-top: 5rem;
+.products ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  gap: 1rem;
+  padding: 1rem;
 }
 
 .products ul {
   list-style-type: none;
+  margin: 0;
+}
 
+.products ul {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
+  grid-template-columns: 1fr;
+  gap: 2rem;
   padding: 0;
 }
 
 .products h3 {
   text-align: center;
   color: #9f2a2a;
-  font-size: 2rem;
   margin-top: 1rem;
 }
 
 .products a {
-  text-align: center;
   text-decoration: none;
   border: 3px solid #9f2a2a;
   border-radius: 10px;
@@ -136,6 +133,18 @@ nav a:hover {
 
 .products a:hover {
   color: black;
+}
+
+.products img {
+  display: block;
+  width: 100%;
+}
+
+.products h2 {
+  text-align: center;
+  color: #9f2a2a;
+  font-size: 1.5rem;
+  margin-top: 5rem;
 }
 
 footer {
@@ -158,9 +167,6 @@ footer p {
 }
 
 @media only screen and (min-width: 38em) {
-  html {
-    background-color: pink;
-  }
 
   .banner h2 {
     font-size: 1.5rem;
@@ -174,12 +180,25 @@ footer p {
   .about p {
     margin: 2rem 11rem;
   }
+
+  .products ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 0;
+  }
+
+  .products h2 {
+    font-size: 2rem;
+  }
+
+  .products h3 {
+    font-size: 1.5rem;
+  }
+
 }
 
 @media only screen and (min-width: 63em) {
-  html {
-    background-color: blue;
-  }
 
   header img {
     width: 3rem;
@@ -206,5 +225,18 @@ footer p {
     margin: 2rem 20rem;
   }
 
+  .products ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
 
+  .products h2 {
+    font-size: 2.5rem;
+  }
+
+  .products h3 {
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
 }
