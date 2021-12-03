@@ -126,6 +126,7 @@ nav a:hover {
 .products img {
   display: block;
   width: 100%;
+  padding: 2rem;
 }
 
 .products h2 {
