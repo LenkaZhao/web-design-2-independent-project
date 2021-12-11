@@ -13,7 +13,7 @@ body {
 }
 
 header img {
-  width: 2rem;
+  width: 1.5rem;
 }
 
 header {
@@ -26,7 +26,7 @@ header {
 }
 
 header h1 {
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding: 0;
   color: #fff;
 }
@@ -43,7 +43,7 @@ nav a {
   margin: .5rem;
   text-decoration: none;
   color: #fff;
-  font-size: .9rem;
+  font-size: .7rem;
 }
 
 nav a:hover {
@@ -70,7 +70,7 @@ nav a:hover {
 
 .banner h2 {
   color: #fff;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .about {
